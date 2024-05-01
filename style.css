@@ -303,7 +303,7 @@ h2 {
 
 }
 
-@media(max-width: 350px){
+@media(max-width: 375px){
   nav {
     display: flex;
     flex-direction: column;
