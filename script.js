@@ -133,7 +133,7 @@ const formattedCurr = function(value, locale, currency){
     currency: currency,
   }).format((value));
 }
-console.log(formattedCurr(1000, account1.locale, account2.currency))
+
 
 
 
@@ -167,7 +167,7 @@ const createUserName = function(accs){
   });
 }
 createUserName(accounts);
-console.log(accounts);
+
 
 
 const calcAndDisplayBalance = function(acc){
@@ -251,7 +251,7 @@ btnLogin.addEventListener('click', function(e){
   e.preventDefault();
 
   currentAccount = accounts.find((acc) => acc.userName === inputLoginUsername.value);
-  console.log(currentAccount);
+
 
   if(currentAccount?.pin === Number(inputLoginPin.value)){
     // Display UI and message
@@ -344,7 +344,6 @@ btnClose.addEventListener('click', function(e){
     
     // Delete Account
     accounts.splice(index, 1);
-    console.log('DELETE');
 
     // Hide UI
     containerApp.style.opacity = 0;
