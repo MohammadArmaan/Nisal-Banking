@@ -28,5 +28,5 @@ Nisal Bank is an open-source project. Feel free to contribute new features or en
 
 This incredible project was crafted with passion and dedication by [Mohammad Armaan](https://github.com/MohammadArmaan), the proud owner of this creation. Let's appreciate the effort and ingenuity behind this innovative tool! 👏✨
 
-Check out the website [Nisal Banking](https://mohammadarmaan.github.io/SGPA-and-CGPA-Calculator/)
+Check out the website [Nisal Banking](https://mohammadarmaan.github.io/Nisal-Banking/)
 
